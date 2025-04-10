@@ -1,1 +1,1 @@
-source "/home/fallal/ELinux/Course/assignments/BuildRoot/assignment-4-Mostafa-elfallal/base_external/package/aesd-assignments/Config.in"
+source "source "$BR2_EXTERNAL_project_base_PATH/package/aesd-assignments/Config.in"
