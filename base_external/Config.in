@@ -1,3 +1,1 @@
-menu "External Packages"
-    source "package/aesd-assignments/Config.in"
-endmenu
+source "/home/fallal/ELinux/Course/assignments/BuildRoot/assignment-4-Mostafa-elfallal/base_external/package/aesd-assignments/Config.in"

@@ -4,17 +4,17 @@
 
 source shared.sh
 
-EXTERNAL_REL_BUILDROOT=../base_external
+EXTERNAL_REL_BUILDROOT=../base_external/
 git submodule init
 git submodule sync
 git submodule update
 
 set -e 
 cd `dirname $0`
-
 if [ ! -e buildroot/.config ]
 then
 	echo "MISSING BUILDROOT CONFIGURATION FILE"
+	echo "BR2_EXTERNAL=${EXTERNAL_REL_BUILDROOT}"
 
 	if [ -e ${AESD_MODIFIED_DEFCONFIG} ]
 	then
